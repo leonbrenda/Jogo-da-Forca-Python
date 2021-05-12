@@ -43,7 +43,7 @@ def imprime_msg_dica(quantidade_letras):
 
 #responsável pela leitura do arquivo e inicialização da palavra secreta
 def carrega_palavra_secreta():
-    arquivo = open('palavras.txt', 'r')
+    arquivo = open('palavras_ocultas.txt', 'r')
     palavras = []
     for linha in arquivo:
         linha = linha.strip()
